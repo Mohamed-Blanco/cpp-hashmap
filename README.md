@@ -1,1 +1,49 @@
-# C++ Hash Map Implementation  A simple hash map implementation written from scratch in C++ for learning and experimentation.  ## Features  - Custom hash table implementation - Collision handling - Insert / remove / search operations - Dynamic resizing - Separate chaining  ## Motivation  I built this project for fun and to better understand how hash maps work internally instead of relying only on STL containers.  ## Build  ```bash mkdir build cd build cmake .. make ```  ## Example  ```cpp HashMap map;  map.insert("hello", 42);  std::cout << map.get("hello"); ```  ## Complexity  | Operation | Average | |----------|----------| | Insert | O(1) | | Search | O(1) | | Delete | O(1) |  ## Future Improvements  - Template support - Iterator support - Better hash functions - Thread safety
+# C++ Hash Map Implementation
+
+A simple hash map implementation written from scratch in C++ for learning and experimentation.
+
+## Features
+
+- Custom hash table implementation
+- Collision handling
+- Insert / remove / search operations
+- Dynamic resizing
+- Separate chaining
+
+## Motivation
+
+I built this project for fun and to better understand how hash maps work internally instead of relying only on STL containers.
+
+## Build
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+## Example
+
+```cpp
+HashMap map;
+
+map.insert("hello", 42);
+
+std::cout << map.get("hello");
+```
+
+## Complexity
+
+| Operation | Average |
+|----------|----------|
+| Insert | O(1) |
+| Search | O(1) |
+| Delete | O(1) |
+
+## Future Improvements
+
+- Template support
+- Iterator support
+- Better hash functions
+- Thread safety
